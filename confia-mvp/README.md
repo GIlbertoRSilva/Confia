@@ -1,9 +1,5 @@
 # CONFIA
 
-Porte completo do app original (React + TypeScript) para **HTML5 + CSS3 +
-JavaScript puro + Canvas API** — mesma tecnologia trocada, mesma aparência,
-mesma funcionalidade. Sem build step, sem framework, sem backend.
-
 ## Como abrir
 
 ```bash
@@ -77,10 +73,3 @@ confia-mvp/
 acumulado de verificações e conquistas desbloqueadas — decide se o menu
 mostra "tutorial" ou "jogar" e se libera o Sandbox. `localStorage["confia:sound"]`
 guarda a preferência de som.
-
-## Fidelidade ao original
-
-Todo o motor (efeitos de confiança, decaimento, moderação por reputação,
-bônus de verificação coletiva, presets de rede, condições de final,
-conquistas) e todas as 7 telas foram portados 1:1 da versão React/TypeScript
-— a diferença é só a camada de implementação.
